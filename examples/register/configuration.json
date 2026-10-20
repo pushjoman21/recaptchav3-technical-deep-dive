@@ -1,0 +1,45 @@
+{
+  "sample": {
+    "filename": "authored-fixture",
+    "bytes": 0,
+    "sha256": "400a1f538c879e79b7d1b75e27736879bb262fc8334b767fc8c4d4050ed95e1c"
+  },
+  "entries": [
+    {
+      "opcode": 1,
+      "semantic": "MOVE",
+      "layout": {
+        "destination": true,
+        "min": 1,
+        "max": 1
+      },
+      "evidence": {
+        "kind": "authored-fixture"
+      }
+    },
+    {
+      "opcode": 2,
+      "semantic": "BINARY_MAP_LEFT",
+      "layout": {
+        "destination": true,
+        "min": 2,
+        "max": 2
+      },
+      "operation": {
+        "kind": "binary",
+        "operator": "+",
+        "left": {
+          "kind": "argument",
+          "index": 0
+        },
+        "right": {
+          "kind": "argument",
+          "index": 1
+        }
+      },
+      "evidence": {
+        "kind": "authored-fixture"
+      }
+    }
+  ]
+}

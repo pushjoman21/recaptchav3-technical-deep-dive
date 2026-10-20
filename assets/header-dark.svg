@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">RecaptchaV3 - Technical Deep Dive</title>
+  <desc id="desc">Redacted research edition. A conceptual path from source analysis through VM semantics to evidence.</desc>
+  <rect width="1200" height="340" fill="#11141a"/>
+  <path d="M48 48h48" stroke="#a4b9ff" stroke-width="4"/>
+  <g font-family="Segoe UI, system-ui, Helvetica, Arial, sans-serif">
+    <text x="48" y="130" font-size="64" font-weight="650" letter-spacing="-2" fill="#eef1f7">RecaptchaV3</text>
+    <text x="48" y="175" font-size="28" fill="#abb4c3">Technical Deep Dive</text>
+    <text x="1152" y="52" text-anchor="end" font-size="16" fill="#abb4c3">Redacted research edition</text>
+    <path d="M48 217h1104" stroke="#343e4d"/>
+    <g font-size="19" fill="#eef1f7">
+      <circle cx="58" cy="267" r="5" fill="#a4b9ff"/>
+      <text x="80" y="274">Source analysis</text>
+      <text x="470" y="274">VM semantics</text>
+      <text x="864" y="274">Evidence and limits</text>
+    </g>
+    <g fill="none" stroke="#abb4c3" stroke-width="1.5">
+      <path d="M290 267h130m-7-5 7 5-7 5"/>
+      <path d="M670 267h145m-7-5 7 5-7 5"/>
+    </g>
+    <text x="48" y="316" font-size="14" fill="#abb4c3">JavaScript virtualization, studied through explicit state and reproducible fixtures.</text>
+  </g>
+</svg>

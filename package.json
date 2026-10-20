@@ -1,0 +1,11 @@
+{
+  "name": "recaptchav3-technical-deep-dive",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Redacted JavaScript VM research and full assembly listings",
+  "scripts": {
+    "quality:repo": "go run ./cmd/check",
+    "check": "go test ./... && go vet ./...",
+    "format:check": "go run ./cmd/check"
+  }
+}

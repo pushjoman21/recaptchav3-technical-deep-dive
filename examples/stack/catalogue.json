@@ -1,0 +1,46 @@
+{
+  "qualified": true,
+  "sample": {
+    "sha256": "authored-stack-example"
+  },
+  "handlers": [
+    {
+      "ids": [
+        101
+      ],
+      "semantic": "SUB",
+      "purpose": "Pop right, then left; push left - right.",
+      "dependencies": [
+        "stack"
+      ],
+      "handler": {
+        "member": "authored",
+        "selector": 0,
+        "evidence": {
+          "start": {
+            "line": 1
+          }
+        }
+      }
+    },
+    {
+      "ids": [
+        102
+      ],
+      "semantic": "ADD",
+      "purpose": "Pop right, then left; preserve JavaScript + coercion.",
+      "dependencies": [
+        "stack"
+      ],
+      "handler": {
+        "member": "authored",
+        "selector": 1,
+        "evidence": {
+          "start": {
+            "line": 2
+          }
+        }
+      }
+    }
+  ]
+}

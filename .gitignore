@@ -1,0 +1,10 @@
+.work/
+node_modules/
+private/
+files/
+captures/
+*.exe
+*.test
+coverage.out
+.DS_Store
+Thumbs.db
